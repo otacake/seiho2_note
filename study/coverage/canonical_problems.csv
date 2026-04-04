@@ -1,0 +1,193 @@
+canonical_id,chapter,title,source_refs,origin,note_file,study_card_id,match_reason,study_status,needs_web_lookup,answer_strategy
+C0001,保険2第1章 生命保険会計,"「生命保険会計の意義」について簡潔に説明(H30-3-1,H27-2-1)",H30-3-1; H27-2-1,wb+notes,02-01 生命保険会計.md,FP-LA-0001,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0002,保険2第1章 生命保険会計,"「生命保険会計の特徴」について簡潔に説明(H30-3-1,H27-2-1)",H30-3-1; H27-2-1,wb+notes,02-01 生命保険会計.md,FP-LA-0002,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0003,保険2第1章 生命保険会計,保険料の会計的特徴は生命保険会計の特殊性の大きな要因の１つである。収益としての保険料がもつ特徴的な側面を４つ挙げ、それぞれ簡潔に説明しなさい(2023-2),2023-2,notes_only,02-01 生命保険会計.md,FP-LA-0003,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0004,保険2第1章 生命保険会計,会計基準穴埋め問題①(H28-1),H28-1,wb+notes,02-01 生命保険会計.md,FP-LA-0004,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0005,保険2第1章 生命保険会計,会計基準穴埋め問題②(H13-1),H13-1,wb+notes,02-01 生命保険会計.md,FP-LA-0005,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0006,保険2第1章 生命保険会計,会計基準穴埋め問題③(H10-1),H10-1,wb+notes,02-01 生命保険会計.md,FP-LA-0006,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0007,保険2第1章 生命保険会計,保険料の計上を現金主義としている理由(H8-1)(筆記),H8-1,wb+notes,02-01 生命保険会計.md,FP-LA-0007,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0008,保険2第1章 生命保険会計,保険料計上における期間損益の把握と責任準備金の関係について、前納の場合を例にとり簡単に説明せよ(H2-2),H2-2,wb+notes,02-01 生命保険会計.md,FP-LA-0008,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0009,保険2第1章 生命保険会計,限度積立穴埋め問題①(H19-1),H19-1,wb+notes,02-01 生命保険会計.md,FP-LA-0009,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0010,保険2第1章 生命保険会計,生命保険会社における保険料の収益計上基準について、以下の点(収益計上基準、限度積立、払込期月前の払込)に触れながら簡潔に説明しなさい(H26-2)(筆記),H26-2,wb+notes,02-01 生命保険会計.md,FP-LA-0010,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0011,保険2第1章 生命保険会計,支払備金穴埋め問題①(H14-1),H14-1,wb+notes,02-01 生命保険会計.md,FP-LA-0012,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0012,保険2第1章 生命保険会計,支払備金穴埋め問題②(H12-1),H12-1,wb+notes,02-01 生命保険会計.md,FP-LA-0013,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0013,保険2第1章 生命保険会計,支払備金について簡潔に説明せよ(H18-1)(筆記),H18-1,wb+notes,02-01 生命保険会計.md,FP-LA-0011,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0014,保険2第1章 生命保険会計,保険業法施行規則第69条穴埋め,,notes_only,02-01 生命保険会計.md,FP-LA-0014,title,drafted,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0015,保険2第1章 生命保険会計,"生命保険の責任準備金の評価における3つの観点についてそれぞれ簡潔に説明せよ(H25-2,H22-2)",H25-2; H22-2,wb+notes,02-01 生命保険会計.md,FP-LA-0015,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0016,保険2第1章 生命保険会計,生命保険の責任準備金の評価において、計算基礎率をロック・インとする方式とロック・インとしない方式(ロック・フリー方式)を比較した場合のロック・インとする方式のメリットおよびデメリット(H25-2),H25-2,wb+notes,02-01 生命保険会計.md,FP-LA-0016,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0017,保険2第1章 生命保険会計,標準利率設定ルール穴埋め_円平準(H17-1改題),H17-1,wb+notes,02-01 生命保険会計.md,FP-LA-0040,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0018,保険2第1章 生命保険会計,標準利率設定ルール穴埋め_円一時払(オリジナル),,notes_only,02-01 生命保険会計.md,FP-LA-0041,title,drafted,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0019,保険2第1章 生命保険会計,標準利率設定ルール穴埋め_外貨平準(オリジナル),,notes_only,02-01 生命保険会計.md,FP-LA-0042,title,drafted,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0020,保険2第1章 生命保険会計,標準利率設定ルール穴埋め_外貨一時払(生保12022-3・オリジナル),2022-3,notes_only,02-01 生命保険会計.md,FP-LA-0043,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0021,保険2第1章 生命保険会計,標準責任準備金の対象外契約(H30-1),H30-1,wb+notes,02-01 生命保険会計.md,FP-LA-0017,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0022,保険2第1章 生命保険会計,標準責任準備金制度の目的(2019-2),2019-2,wb+notes,02-01 生命保険会計.md,FP-LA-0018,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0023,保険2第1章 生命保険会計,標準責任準備金制度の概要(2019-2)(めっちゃ長い),2019-2,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0024,保険2第1章 生命保険会計,事業年度末責任準備金の積立方とその考え方①(H17-2),H17-2,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0025,保険2第1章 生命保険会計,事業年度末責任準備金の積立方とその考え方②(H17-2),H17-2,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0026,保険2第1章 生命保険会計,事業年度末責任準備金の積立方とその考え方③(H17-2),H17-2,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0027,保険2第1章 生命保険会計,保険契約を再保険に付した場合の責任準備金の不積立について、関連する法令及び「保険会社向けの総合的な監督指針」における記載も踏まえ、簡潔に説明(H22-2)(長いよ),H22-2,wb+notes,02-01 生命保険会計.md,FP-LA-0020,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0028,保険2第1章 生命保険会計,チルメル式責任準備金について簡潔に説明せよ(オリジナル・教科書1-44),,notes_only,02-01 生命保険会計.md,FP-LA-0024,title,drafted,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0029,保険2第1章 生命保険会計,初年度定期式責任準備金について簡潔に説明せよ(H14-1),H14-1,wb+notes,02-01 生命保険会計.md,FP-LA-0025,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0030,保険2第1章 生命保険会計,営業保険料式責任準備金について簡潔に説明せよ(H14-1),H14-1,wb+notes,02-01 生命保険会計.md,FP-LA-0026,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0031,保険2第1章 生命保険会計,各種準備金に関する文章の問題(H26-1、2019-1、オリジナル),H26-1; 2019-1,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0032,保険2第1章 生命保険会計,危険準備金の取り崩れ基準(H29-1),H29-1,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0033,保険2第1章 生命保険会計,危険準備金の意義について簡潔に説明(H20-2),H20-2,wb+notes,02-01 生命保険会計.md,FP-LA-0029,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0034,保険2第1章 生命保険会計,各種危険準備金に関する詳細(オリジナル),,notes_only,02-01 生命保険会計.md,FP-LA-0044,title,drafted,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0035,保険2第1章 生命保険会計,価格変動準備金と旧保険業法第 86 条準備金の考え方の相違点を説明せよ。(H8-2),H8-2,wb+notes,02-01 生命保険会計.md,FP-LA-0027,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0036,保険2第1章 生命保険会計,日本の生命保険会社のソルベンシーについて、責任準備金をはじめとした保険契約準備金などでソルベンシー確保が図られるが、これらソルベンシー確保のための準備金等について簡潔に説明せよ(H15-3)(長いよ)。,H15-3,wb+notes,02-01 生命保険会計.md,FP-LA-0045,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0037,保険2第1章 生命保険会計,生命保険会社の勘定項目小問①(H24-1),H24-1,wb+notes,02-01 生命保険会計.md,FP-LA-0046,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0038,保険2第1章 生命保険会計,生命保険会社の勘定項目小問②(H17-1),H17-1,wb+notes,02-01 生命保険会計.md,FP-LA-0047,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0039,保険2第1章 生命保険会計,商品有価証券について簡潔に説明(H12-1、オリジナル),H12-1,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0040,保険2第1章 生命保険会計,"生命保険会社のBS上における有価証券の評価に関して(H16-1,H29-1,2019-1)",H16-1; H29-1; 2019-1,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0041,保険2第1章 生命保険会計,"「責任準備金対応債券」の概要について簡潔に説明(H24-2,H30-1)(長いよ)",H24-2; H30-1,wb+notes,02-01 生命保険会計.md,FP-LA-0034,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0042,保険2第1章 生命保険会計,"生命保険会社における貸倒引当金について簡潔に説明せよ(H5-1,解答アプデ)",H5-1,wb+notes,02-01 生命保険会計.md,FP-LA-0048,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0043,保険2第1章 生命保険会計,生命保険会社の資産運用に係る会計(H20-1),H20-1,wb+notes,02-01 生命保険会計.md,FP-LA-0032,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0044,保険2第1章 生命保険会計,生命保険会社のヘッジ会計(H25-1),H25-1,wb+notes,02-01 生命保険会計.md,FP-LA-0049,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0045,保険2第1章 生命保険会計,保険業法第112条評価益(H11-1),H11-1,wb+notes,02-01 生命保険会計.md,FP-LA-0033,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0046,保険2第1章 生命保険会計,FSA提出用の利源分析の意義(H25-2),H25-2,wb+notes,02-01 生命保険会計.md,FP-LA-0035,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0047,保険2第1章 生命保険会計,FSA提出用の利源分析の概要(H25-2),H25-2,wb+notes,02-01 生命保険会計.md,FP-LA-0036,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0048,保険2第1章 生命保険会計,FSA提出用の利源分析の結果を評価する際に留意すべき点(H25-2)(長いよ),H25-2,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0049,保険2第1章 生命保険会計,金融庁提出用の利源分析を行う場合の両建勘定を 4 つ挙げ、それぞれの内容と役割を簡潔に説明(H28-3)(長いよ),H28-3,wb+notes,02-01 生命保険会計.md,FP-LA-0050,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0050,保険2第1章 生命保険会計,利源分析における死差(危険差)損益に関する穴埋め(2019-1),2019-1,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0051,保険2第1章 生命保険会計,"責任準備金関係損益について簡潔に説明せよ(H3-1,解答は教科書の記載を加えている)",H3-1,wb+notes,02-01 生命保険会計.md,FP-LA-0051,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0052,保険2第1章 生命保険会計,利源分析において、各利源別剰余の算出方法を簡潔に説明せよ(H11-2)(非常に簡潔に説明),H11-2,wb+notes,02-01 生命保険会計.md,FP-LA-0037,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0053,保険2第1章 生命保険会計,平成 12 年度決算より生命保険会社に基礎利益」の計算が義務付けられたが「基礎利益」について簡潔に説明(H13-1),H13-1,wb+notes,02-01 生命保険会計.md,FP-LA-0038,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0054,保険2第1章 生命保険会計,生命保険相互会社における剰余金の分配に関して空欄を埋めよ(H24-1、H11-1),H24-1; H11-1,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0055,保険2第1章 生命保険会計,社員配当準備金について説明(H6-1、解答は教科書踏まえオリジナルに変更、2019-1),H6-1; 2019-1,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0056,保険2第1章 生命保険会計,"社員配当準備金に関して(H21-1,H10-1)",H21-1; H10-1,wb+notes,02-01 生命保険会計.md,FP-LA-0006,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0057,保険2第1章 生命保険会計,社員配当準備金の積立限度に関して(H16-1),H16-1,wb+notes,02-01 生命保険会計.md,FP-LA-0031,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0058,保険2第1章 生命保険会計,剰余金の処分の対象となる金額(H10-1、解答は教科書踏まえ一部変更),H10-1,wb+notes,02-01 生命保険会計.md,FP-LA-0006,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0059,保険2第1章 生命保険会計,生命保険会社の法人税課税について①(H26-1),H26-1,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0060,保険2第1章 生命保険会計,生命保険会社の法人税課税について②(H23-1、解答最新化),H23-1,wb+notes,02-01 生命保険会計.md,FP-LA-0052,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0061,保険2第1章 生命保険会計,生命保険会社の法人税課税について③(H13-1),H13-1,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0062,保険2第1章 生命保険会計,7%最低課税方式について(H8-1),H8-1,wb+notes,02-01 生命保険会計.md,FP-LA-0007,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0063,保険2第1章 生命保険会計,"法人税法上の契約者配当準備金繰入限度額について簡潔に説明(H4,H2-1)",H2-1,wb+notes,02-01 生命保険会計.md,FP-LA-0053,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0064,保険2第1章 生命保険会計,IBNR備金の損金算入(2022-1),2022-1,notes_only,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0065,保険2第1章 生命保険会計,受取配当金の法人税法上の取扱について、一般事業会社と生命保険会社の相違点を説明せよ(H3-1),H3-1,wb+notes,02-01 生命保険会計.md,FP-LA-0054,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0066,保険2第1章 生命保険会計,生命保険会社に対する法人事業税(2019-1),2019-1,wb+notes,02-01 生命保険会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0067,保険2第1章 生命保険会計,"生命保険会社の法人事業税について簡潔に説明(H12-1,解答オリジナル)",H12-1,wb+notes,02-01 生命保険会計.md,FP-LA-0056,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0068,保険2第1章 生命保険会計,"生命保険会社における法人税課税の特徴のうち5点を挙げ、各項目について説明せよ(H5-2,解答オリジナル)",H5-2,wb+notes,02-01 生命保険会計.md,FP-LA-0055,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0069,保険2第3章 契約者配当,契約者配当を行う理由について(H20-3・2024-3・記載は教科書),H20-3; 2024-3,wb+notes,02-03 契約者配当.md,FP-PD-0001,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0070,保険2第3章 契約者配当,生命保険における契約者配当は高度な経営技術の課題の1つと言われる理由(オリジナル・教科書),,notes_only,02-03 契約者配当.md,FP-PD-0002,title,drafted,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0071,保険2第3章 契約者配当,決算時の利益を契約者配当として契約者に還元するにあたっての、決算利益の特性の視点からの留意点について、簡潔に説明しなさい(H28-2)(長い！まるあんき),H28-2,wb+notes,02-03 契約者配当.md,FP-PD-0003,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0072,保険2第3章 契約者配当,生命保険会社が公平な契約者配当を実施するにあたり、剰余金の分配に関して留意すべき事項（原則）について、重要と思われる順に説明せよ(H7・答えは教科書)。,,notes_only,02-03 契約者配当.md,FP-PD-0004,title,drafted,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0073,保険2第3章 契約者配当,日本における生命保険会社の配当（社員配当、契約者配当）について、配当に係る法令の規制について簡潔に説明せよ(H14-2・答えは教科書・とても長い)。,H14-2,wb+notes,02-03 契約者配当.md,FP-PD-0005,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0074,保険2第3章 契約者配当,保険業法第 55 条の２第１項において規定されている「公正かつ衡平な分配」について簡潔に説明せよ(H10-2)。,H10-2,wb+notes,02-03 契約者配当.md,FP-PD-0006,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0075,保険2第3章 契約者配当,無配当保険について、その意義および利益の取扱いを簡潔に説明しなさい。なお、相互会社における非社員契約の取扱いについて言及する必要はない(H29-2)。,H29-2,wb+notes,02-03 契約者配当.md,FP-PD-0007,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0076,保険2第3章 契約者配当,「生命保険会社の保険計理人の実務基準」小問集合(H11-1),H11-1,wb+notes,02-03 契約者配当.md,FP-PD-0008,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0077,保険2第3章 契約者配当,「生命保険会社の保険計理人の実務基準」第17条(H12-1・オリジナル),H12-1,wb+notes,02-03 契約者配当.md,FP-PD-0021,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0078,保険2第3章 契約者配当,「生命保険会社の保険計理人の実務基準」第18条(H12-1・オリジナル),H12-1,wb+notes,02-03 契約者配当.md,FP-PD-0022,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0079,保険2第3章 契約者配当,「生命保険会社の保険計理人の実務基準」第19条(H12-1・オリジナル),H12-1,wb+notes,02-03 契約者配当.md,FP-PD-0023,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0080,保険2第3章 契約者配当,「生命保険会社の保険計理人の実務基準」第20条(H12-1・オリジナル),H12-1,wb+notes,02-03 契約者配当.md,FP-PD-0024,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0081,保険2第3章 契約者配当,「生命保険会社の保険計理人の実務基準」第21条(H12-1・オリジナル),H12-1,wb+notes,02-03 契約者配当.md,FP-PD-0025,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0082,保険2第3章 契約者配当,「生命保険会社の保険計理人の実務基準」第22条(H12-1・オリジナル),H12-1,wb+notes,02-03 契約者配当.md,FP-PD-0026,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0083,保険2第3章 契約者配当,「生命保険会社の保険計理人の実務基準」第23条(H12-1・オリジナル・生保1-H27-1など),H12-1; H27-1,wb+notes,02-03 契約者配当.md,FP-PD-0027,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0084,保険2第3章 契約者配当,「生命保険会社の保険計理人の実務基準」第24条(H12-1・オリジナル),H12-1,wb+notes,02-03 契約者配当.md,FP-PD-0028,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0085,保険2第3章 契約者配当,「生命保険会社の保険計理人の実務基準」第25条(H12-1・オリジナル),H12-1,wb+notes,02-03 契約者配当.md,FP-PD-0029,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0086,保険2第3章 契約者配当,生命保険会社の保険計理人の実務基準に規定されている公正・衡平な配当の要件および公正・衡平な配当の確認の概要について、簡潔に説明しなさい(H30-2、H23-2で解答は同じ)(長いよ),H30-2; H23-2,wb+notes,02-03 契約者配当.md,FP-PD-0009,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0087,保険2第3章 契約者配当,契約者配当の割当と分配の違いについて説明(オリジナル),,notes_only,02-03 契約者配当.md,FP-PD-0015,title,drafted,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0088,保険2第3章 契約者配当,契約者配当の分配の際に考慮すべき原則を簡潔に 4 つ説明しなさい(2019-3),2019-3,wb+notes,02-03 契約者配当.md,FP-PD-0016,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0089,保険2第3章 契約者配当,"「利源別配当方式」と「アセット・シェア配当方式」について、それらの利点および留意事項も含めて簡潔に説明せよ(2019-3,H19-2)",2019-3; H19-2,wb+notes,02-03 契約者配当.md,FP-PD-0017,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0090,保険2第3章 契約者配当,利源別配当方式の長所短所を簡潔に説明(2022-2),2022-2,notes_only,02-03 契約者配当.md,FP-PD-0018,ref,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0091,保険2第3章 契約者配当,2年目配当と3年目配当について、それぞれの特徴を対比しながら簡潔に説明せよ(2020-2),2020-2,notes_only,02-03 契約者配当.md,FP-PD-0019,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0092,保険2第3章 契約者配当,５年ごと配当保険の通常配当の仕組みを説明した上で、その配当方式の特徴および課題について、簡潔に説明しなさい(2020-2),2020-2,notes_only,02-03 契約者配当.md,FP-PD-0020,title,drafted,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0093,横断 リスク管理・ALM,リスクと不確実性について(未出),,notes_only,02-04 リスク管理.md,,,missing,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0094,横断 リスク管理・ALM,リスクと資本・必要資本要件に対するインプット項目(未出),,notes_only,02-04 リスク管理.md,,,missing,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0095,横断 リスク管理・ALM,リスクと資本・監督規制方法と経済資本の間に想定される主な差異(未出),,notes_only,02-04 リスク管理.md,,,missing,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0096,横断 リスク管理・ALM,リスク管理におけるリスクモデリングの限界とその対応方法について簡潔に説明(2023-2),2023-2,notes_only,02-04 リスク管理.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0097,横断 リスク管理・ALM,ERM体制の役割と責任における、「3つの防衛ライン」について(未出),,notes_only,02-04 リスク管理.md,,,missing,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0098,横断 リスク管理・ALM,ERM体制の「内部統制体制」について(COSO)(未出),,notes_only,02-04 リスク管理.md,,,missing,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0099,横断 リスク管理・ALM,リスク管理プロセス（一般に６段階）について簡潔に説明しなさい。なお、解答にあたっては、リスク対応における４つのカテゴリーについて触れること(2021-3),2021-3,notes_only,02-04 リスク管理.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0100,横断 リスク管理・ALM,リスク計測に使用する以下のモデルを簡潔に説明しなさい(2022-2),2022-2,notes_only,02-04 リスク管理.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0101,横断 リスク管理・ALM,各リスクを計測するモデル(未出),,notes_only,02-04 リスク管理.md,,,missing,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0102,横断 リスク管理・ALM,IAIS の ALM イシューペーパーにおいて記述されている資産負債管理の対象となるリスクについて列挙し、それぞれ簡潔に説明しなさい(H21-2),H21-2,wb+notes,02-04 リスク管理.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0103,横断 リスク管理・ALM,生命保険会社のALMにおいて対象となる市場リスクについて、IAISのALMイシューペーパーに準拠した場合の4つのリスクを列挙し概略を説明(2023-3),2023-3,notes_only,02-04 リスク管理.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0104,横断 リスク管理・ALM,ALMイシューペーパーにおける市場リスク(未出),,notes_only,02-04 リスク管理.md,,,missing,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0105,横断 リスク管理・ALM,IAIS の ALM イシューペーパーにおいて、一般的に保険契約に組み込まれているオプションのうち資産負債管理で考慮されるべき事柄とされている、保険契約が保険契約者に与えているオプションを 5つ列挙(H29-1),H29-1,wb+notes,02-04 リスク管理.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0106,横断 リスク管理・ALM,新契約の影響に関わる保険引受リスク(未出),,notes_only,02-04 リスク管理.md,,,missing,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0107,横断 リスク管理・ALM,流動性リスクについて簡潔に説明し、生命保険会社にとって流動性の問題を引き起こす潜在的な要因について列挙しなさい(2023-3),2023-3,notes_only,02-04 リスク管理.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0108,保険2第5章 事業費の管理・分析,損益計算書を作成する際、事業費を計上するに当たって準拠すべき会計原則を列挙し、簡潔に説明せよ(H6-1・教科書),H6-1,wb+notes,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0109,保険2第5章 事業費の管理・分析,"「広義の事業費」として「事業費」にプラスして考えるべき費用を 3つ挙げよ(H7-1改題,教科書)",H7-1,wb+notes,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0110,保険2第5章 事業費の管理・分析,"事業費分析における予定事業費枠の意義と役割について説明せよ(2023-3,H16-4)",2023-3; H16-4,wb+notes,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0111,保険2第5章 事業費の管理・分析,"予定事業費枠における「蔵銀枠」、「利源枠」、「純保枠」の考え方、事業費統制の基準として採用する際のメリット・デメリットについて、簡潔に説明しなさい(2019-3,H23-2,教科書)",2019-3; H23-2,wb+notes,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0112,保険2第5章 事業費の管理・分析,予定事業費枠小問(H13-1.H26-1),H13-1; H26-1,wb+notes,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0113,保険2第5章 事業費の管理・分析,"予定事業費計算の限度超過修正（Negative Reserve 修正）について簡潔に説明せよ(H3-1,解答は教科書)",H3-1,wb+notes,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0114,保険2第5章 事業費の管理・分析,"初年度定期式の責任準備金積立方式に対応する予定事業費枠を簡潔に説明せよ(H10-1,教科書)。",H10-1,wb+notes,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0115,保険2第5章 事業費の管理・分析,"利源分析(5年チルメル式基準)における費差損益・解約損益について説明し、継続率が費差損益・解約損益に与える影響について説明せよ(H16-4,2024-2)。",H16-4; 2024-2,wb+notes,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0116,保険2第5章 事業費の管理・分析,保険種類別に事業費効率を把握することの目的、結果の利用方法について簡潔に説明しなさい(H30-2),H30-2,wb+notes,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0117,保険2第5章 事業費の管理・分析,"生命保険会社における原価管理の目的、商品別原価管理の目的、概略および留意点について簡潔に説明しなさい(2023-3,2021-1,H27-3)",2023-3; 2021-1; H27-3,wb+notes,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0118,保険2第5章 事業費の管理・分析,生命保険会社における特徴的な経費である新契約費の持つ会計的意味（収入と支出の特徴）について、簡潔に説明せよ(H19-3),H19-3,wb+notes,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0119,保険2第5章 事業費の管理・分析,"金融庁による事業費モニタリングについて、概要および導入された背景を簡潔に説明しなさい(2022-2,H25-3)(ながい)",2022-2; H25-3,notes_only,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0120,保険2第5章 事業費の管理・分析,事業費モニタリング小問①：金融庁による事業費モニタリングの概要に関して(H22-1),H22-1,wb+notes,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0121,保険2第5章 事業費の管理・分析,"事業費モニタリング小問②：定期的に報告する資料(H28-1,2020-1)",H28-1; 2020-1,wb+notes,02-05 事業費の管理・分析.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0122,保険2第6章 ソルベンシー,ソルベンシー評価の意義について簡潔に説明、また、現在の日本の法令等に基づく、静的なソルベンシーの検証および動的なソルベンシーの検証について、それぞれのメリット・デメリットを含め、簡潔に説明しなさい。(H27-2)(H27当時),H27-2,wb+notes,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0123,保険2第6章 ソルベンシー,企業会計原則注解における負債の部に計上できる引当金の設定要件を 4 つ挙げよ(H11-1),H11-1,wb+notes,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0124,保険2第6章 ソルベンシー,"生命保険会社の自己資本が有していると考えられる機能を 4 つ列挙しなさい。(2024-2,H28-1)",2024-2; H28-1,wb+notes,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0125,保険2第6章 ソルベンシー,静的なソルベンシー小問①(H9-1改題・教科書),H9-1,wb+notes,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0126,保険2第6章 ソルベンシー,最低保証リスク・大蔵省告示(H27-1),H27-1,wb+notes,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0127,保険2第6章 ソルベンシー,静的なソルベンシー小問②(H10-1改題・教科書),H10-1,wb+notes,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0128,保険2第6章 ソルベンシー,静的なソルベンシー小問③(H13-1改題・教科書),H13-1,wb+notes,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0129,保険2第6章 ソルベンシー,生命保険会社を対象とした早期是正措置制度の概要について、簡潔に説明しなさい。なお、ソルベンシー・マージン比率、実質資産負債差額の計算の詳細については言及する必要はない(H26-2),H26-2,wb+notes,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0130,保険2第6章 ソルベンシー,資産負債管理に関し、ポートフォリオのイミュナイゼーションのために満たすべき基準を挙げよ(2022-1),2022-1,notes_only,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0131,保険2第6章 ソルベンシー,ソルベンシー評価の意義について簡潔に説明(2022-3),2022-3,notes_only,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0132,保険2第6章 ソルベンシー,日本の生命保険会社のソルベンシーについて、静的なソルベンシーの検証・動的なソルベンシーの検証について説明せよ(H30-3),H30-3,wb+notes,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0133,保険2第6章 ソルベンシー,"支払保証制度（保険会社が経営破綻に陥った場合に、破綻保険会社に代わって保険契約者等に対する債務を履行する機能を有することで、保険契約者等の保護を図る制度）の必要性に関し、監督当局・保険会社・保険契約者等の関係者にとっての、保険契約者の保護を図ること以外のメリットを２つ、および同関係者にとってのデメリットを３つ挙げよ(2021-1,H24-1)",2021-1; H24-1,wb+notes,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0134,保険2第6章 ソルベンシー,経済価値ベースのソルベンシー規制におけるリスク・マージンについて(2024-1),2024-1,notes_only,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0135,保険2第6章 ソルベンシー,経済価値ベースのソルベンシー規制における市場整合的評価について(未出・教科書),,notes_only,02-06 ソルベンシー.md,,,missing,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0136,保険2第6章 ソルベンシー,経済価値ベースのソルベンシー規制における割引率について(未出・教科書),,notes_only,02-06 ソルベンシー.md,,,missing,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0137,保険2第6章 ソルベンシー,経済価値ベースのソルベンシー規制におけるリスクの計測について(未出・教科書),,notes_only,02-06 ソルベンシー.md,,,missing,maybe,note -> textbook/pdf -> similar local problem -> reconstruct
+C0138,保険2第6章 ソルベンシー,"経済価値ベースの保険負債評価の概要について、現行の法定会計における責任準備金評価との相違を踏まえて簡潔に説明(2024-3,H29-3)",2024-3; H29-3,notes_only,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0139,保険2第6章 ソルベンシー,経済価値ベースのソルベンシー評価について、SMR規制(問題当時は「現行」規制)と比較したメリット・デメリットを簡潔に説明(2022-3)(簡潔じゃねえよってくらい長い),2022-3,notes_only,02-06 ソルベンシー.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0140,保険2第7章 内部管理会計・区分経理,内部管理会計の意義および必要性について、現行法定会計の特徴と限界に触れつつ、簡潔に説明(H26-2),H26-2,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0141,保険2第7章 内部管理会計・区分経理,「エンベディッド・バリュー(Embedded Value)」と「アプレイザル・バリュー(Appraisal Value)」について簡潔に説明(H13-1、回答はやや変更),H13-1,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0142,保険2第7章 内部管理会計・区分経理,潜在価値会計（エンベディッド・バリュー(EV)）の概要（意義、考え方、特徴など）について簡潔に説明(2019-3),2019-3,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0143,保険2第7章 内部管理会計・区分経理,内部管理会計小問①(H12-1),H12-1,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0144,保険2第7章 内部管理会計・区分経理,"「ハードル・レート」について、簡潔に説明せよ(H9-2,教科書)",H9-2,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0145,保険2第7章 内部管理会計・区分経理,価値基準会計（潜在価値会計）等におけるハードル・レート（リスク割引率）の設定方法である「トップ・ダウンアプローチ」と「ボトム・アップアプローチ」についてそれぞれ簡潔に説明しなさい。(H30-1),H30-1,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0146,保険2第7章 内部管理会計・区分経理,潜在価値会計における資本コストについて簡潔に説明(H20-2),H20-2,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0147,保険2第7章 内部管理会計・区分経理,市場整合的EV(以下、MCEV)と伝統的EVの主な相違点について簡潔に説明(2021-2),2021-2,notes_only,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0148,保険2第7章 内部管理会計・区分経理,以下の商品の解約の実績が増加した場合、当期の「当期純利益（純剰余）」及び Embedded Value のうちの「保有契約価値」に与える主な影響について、商品ごとにそれぞれ簡潔に説明しなさい。なお、両商品とも営業職員の比例給は契約時のみに支払われ、解約による戻入はないものとし、比例給支払後は費差益であるものとする。(H21-1),H21-1,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0149,保険2第7章 内部管理会計・区分経理,区分経理に関する概要(H20-1),H20-1,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0150,保険2第7章 内部管理会計・区分経理,区分経理監督指針(H30-1),H30-1,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0151,保険2第7章 内部管理会計・区分経理,"区分経理の意義(H23-2,H28-2)",H23-2; H28-2,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0152,保険2第7章 内部管理会計・区分経理,区分経理の活用方法及び活動時の留意点について簡潔に説明(H28-2),H28-2,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0153,保険2第7章 内部管理会計・区分経理,区分経理の意義および商品区分の設定について、「保険会社向けの総合的な監督指針」および「保険検査マニュアル」の内容を踏まえ、簡潔に説明しなさい(H23-2),H23-2,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0154,保険2第7章 内部管理会計・区分経理,区分経理の意義および、活用方法について、活用時の留意点に触れながら簡潔に説明しなさい(H28-2)(非常に長いがひとまとめ),H28-2,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0155,保険2第7章 内部管理会計・区分経理,"区分経理における全社区分の機能4つおよび全社区分の財源の代表的な例について、簡潔に説明せよ(2019-1,H27-1,H17-1)",2019-1; H27-1; H17-1,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0156,保険2第7章 内部管理会計・区分経理,区分経理における商品区分と全社区分との取引について分類し、簡潔に説明しなさい(H22-2),H22-2,wb+notes,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0157,保険2第7章 内部管理会計・区分経理,生命保険会社の区分経理における運用資産の管理方式について、それぞれ名称を挙げ、簡潔に説明しなさい(2023-1),2023-1,notes_only,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0158,保険2第7章 内部管理会計・区分経理,生命保険会社の区分経理における商品区分の設定について、「保険会社向けの総合的な監督指針」の内容を踏まえ、簡潔に説明しなさい(2024-1),2024-1,notes_only,02-07 内部管理会計.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0159,保険2第8章 相互会社と株式会社,保険相互会社と保険株式会社の契約者配当に関して(H27-1),H27-1,wb+notes,02-08 相互会社と株式会社.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0160,保険2第8章 相互会社と株式会社,保険株式会社と保険相互会社の会計上の相違点に関して①(H14-1),H14-1,wb+notes,02-08 相互会社と株式会社.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0161,保険2第8章 相互会社と株式会社,保険株式会社と保険相互会社の会計上の相違点に関して②(2020-1),2020-1,notes_only,02-08 相互会社と株式会社.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0162,保険2第8章 相互会社と株式会社,相互会社の非社員契約小問(H25-1),H25-1,wb+notes,02-08 相互会社と株式会社.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0163,保険2第8章 相互会社と株式会社,非社員契約に関わる法令規制について簡潔に説明(H10-2),H10-2,wb+notes,02-08 相互会社と株式会社.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0164,保険2第8章 相互会社と株式会社,相互会社が有配当保険と無配当保険を併売する場合における留意点(H18-2),H18-2,wb+notes,02-08 相互会社と株式会社.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0165,保険2第8章 相互会社と株式会社,相互会社が有配当保険と無配当保険を併売する場合の公正衡平な取扱いに関して(H18-2),H18-2,wb+notes,02-08 相互会社と株式会社.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0166,保険2第8章 相互会社と株式会社,相互会社が有配当保険と無配当保険を併売する場合の収益性・健全性に関して(H18-2),H18-2,wb+notes,02-08 相互会社と株式会社.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0167,保険2第8章 相互会社と株式会社,相互会社が有配当保険と無配当保険を併売する場合における留意点を挙げ、公正・衡平な取扱いおよび収益性・健全性確保の観点を含めて簡潔に説明(H18-2)(とっても長い),H18-2,wb+notes,02-08 相互会社と株式会社.md,,,missing,no,note -> textbook/pdf -> similar local problem -> web -> reconstruct
+C0168,保険2第1章 生命保険会計,H30 生保２問題 3(1)①、H27 生保２問題 2(1) 、H18 生保２問題 1(6)、H14 生保２問題 2(1)①、H8 生,H1-2-1,wb_only,,,excluded,excluded,no,textbook/pdf -> similar local problem -> web -> reconstruct
+C0169,保険2第1章 生命保険会計,②価格変動準備金と旧保険業法第 86 条準備金の考え方の相違点を説明せよ。,H1-1-1,wb_only,,FP-LA-0057,ref,drafted,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0170,保険2第1章 生命保険会計,保険業法第 86 条準備金について簡潔に説明せよ。,H4-2-2,wb_only,,FP-LA-0057,title,drafted,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0171,保険2第1章 生命保険会計,現行規制対象外（試験範囲外）,H4-1-1,wb_only,,,excluded,excluded,no,textbook/pdf -> similar local problem -> web -> reconstruct
+C0172,保険2第1章 生命保険会計,(オ)契約復活に伴う収入、契約内容の変更に伴う収入・支払金はないものとする。,H15-2-3,wb_only,,,excluded,excluded,no,textbook/pdf -> similar local problem -> web -> reconstruct
+C0173,保険2第1章 生命保険会計,部に計上した金額,H1-2-2,wb_only,,,excluded,excluded,no,textbook/pdf -> similar local problem -> web -> reconstruct
+C0174,保険2第1章 生命保険会計,高」「前年度剰余金からの繰入額」「利息による増加額」「支払いによる減少額」の各項目を説明せよ。,H2-3-1,wb_only,,,excluded,excluded,no,textbook/pdf -> similar local problem -> web -> reconstruct
+C0175,保険2第1章 生命保険会計,７％課税方式について、最近の状況も踏まえ説明せよ。,H4-1-3; H2-3-1,wb_only,,,,missing,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0176,保険2第1章 生命保険会計,法人税法上の契約者配当準備金繰入限度額について簡潔に説明せよ。,H3-2-1,wb_only,,FP-LA-0053,ref,drafted,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0177,保険2第1章 生命保険会計,経常収益（再保険料として収入する保険料を除く）に 100 分の 24 を乗じて得た金額である。,H15-1-2,wb_only,,FP-LA-0056,ref,drafted,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0178,保険2第1章 生命保険会計,該当する。,H1-1-2,wb_only,,,excluded,excluded,no,textbook/pdf -> similar local problem -> web -> reconstruct
+C0179,保険2第3章 契約者配当,意点について、簡潔に説明しなさい。,H7-2-1,wb_only,,,excluded,excluded,no,textbook/pdf -> similar local problem -> web -> reconstruct
+C0180,生命保険会社の保険計理人の職務,契約者配当の割当方式として、２年目配当と３年目配当があるが、この違いについて説明せよ。,H3-2-2,wb_only,,FP-DUTY-0001,ref,drafted,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0181,生命保険会社の保険計理人の職務,3.7 特別配当,H4-2-3,wb_only,,FP-DUTY-0002,title,drafted,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0182,生命保険会社の保険計理人の職務,特別配当の意義・考え方について、通常配当との違いも踏まえて、簡潔に説明せよ。,H4-2-3,wb_only,,FP-DUTY-0003,title,drafted,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0183,保険2第5章 事業費の管理・分析,5.2 事業費,H6-2-1,wb_only,,,,missing,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0184,保険2第5章 事業費の管理・分析,・蔵銀枠（第 1 保険年度）：30 万円,H15-2-2,wb_only,,,,missing,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0185,保険2第6章 ソルベンシー,確認事項に追加,H16-3,wb_only,,,,missing,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0186,保険2第7章 内部管理会計,運用利回り          5%,H4-1-5,wb_only,,FP-LA-0053,ref,drafted,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0187,生命保険会社の保険計理人の職務,（ⅸ）その他保険計理人がその職務を行うに際し必要な事項,H15-2-1,wb_only,,,,missing,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0188,生命保険会社の保険計理人の職務,不足相当額の積立計画およびその財源について、附属報告書に記載しなければならない。,H17-3-1,wb_only,,,,missing,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0189,生命保険会社の保険計理人の職務,ス、全期チルメル式責任準備金 セ．危険準備金 ソ．貸倒引当金 タ．責任準備金,H13-3-2,wb_only,,FP-LA-0024,title,drafted,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0190,生命保険会社の保険計理人の職務,【所見問題】,H24-3-2,wb_only,,,excluded,excluded,no,textbook/pdf -> similar local problem -> web -> reconstruct
+C0191,生命保険会社の保険計理人の職務,ことを重視している。,H15-1-3,wb_only,,,,missing,maybe,textbook/pdf -> similar local problem -> web -> reconstruct
+C0192,生命保険会社の保険計理人の職務,⑤ FAS60 では、原則として払込期日の到来した保険料を収益として計上する。,H4-1-4,wb_only,,FP-LA-0053,ref,drafted,maybe,textbook/pdf -> similar local problem -> web -> reconstruct

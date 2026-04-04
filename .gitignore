@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Local temporary files
+tmp_*.pdf
+tmp_*.txt
+
+# Generated exports
+study/anki/exports/*.tsv
+study/coverage/problem_inventory.xlsx
+
+# Raw source PDFs are kept locally but not tracked by default
+note/**/*.pdf

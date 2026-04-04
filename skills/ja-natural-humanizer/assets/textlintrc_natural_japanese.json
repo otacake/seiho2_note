@@ -1,0 +1,39 @@
+{
+  "rules": {
+    "preset-ja-technical-writing": {
+      "sentence-length": {
+        "max": 90
+      },
+      "max-comma": {
+        "max": 3
+      },
+      "max-ten": {
+        "max": 3
+      },
+      "max-kanji-continuous-len": {
+        "max": 6,
+        "allow": []
+      },
+      "arabic-kanji-numbers": true,
+      "ja-no-mixed-period": {
+        "periodMark": "。"
+      },
+      "no-double-negative-ja": true,
+      "ja-no-abusage": true,
+      "ja-no-redundant-expression": true,
+      "ja-unnatural-alphabet": true,
+      "no-unmatched-pair": true,
+      "ja-no-weak-phrase": false
+    },
+    "@textlint-ja/preset-ai-writing": {
+      "no-ai-list-formatting": true,
+      "no-ai-hype-expressions": true,
+      "no-ai-emphasis-patterns": true,
+      "no-ai-colon-continuation": true,
+      "ai-tech-writing-guideline": {
+        "severity": "info",
+        "enableDocumentAnalysis": true
+      }
+    }
+  }
+}
