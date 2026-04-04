@@ -89,7 +89,13 @@
   - `C:\\Users\\shunsuke\\seiho2` で独立した Git リポジトリを初期化した
   - `.gitignore` を追加し、`note/**/*.pdf`、`study/anki/exports/*.tsv`、`study/coverage/problem_inventory.xlsx`、`tmp_*.pdf`、`tmp_*.txt` を既定で除外した
   - raw PDF を除いた study 資産・ノート・スクリプトを初回コミット `68c4627` (`Initialize seiho2 study repo`) として保存した
-  - GitHub への push は、現環境に `gh` がなく、remote も未設定のため未実施
+  - GitHub の remote は `origin = https://github.com/otacake/seiho2_note.git`
+  - `main` を remote に push 済み
+  - 現時点の関連コミット
+    - `68c4627 Initialize seiho2 study repo`
+    - `2d64433 Add legacy dividend supplement notes`
+  - `gh` コマンドは依然として未導入なので、以後も GitHub 操作は基本的に `git remote` と `git push` で行う
+  - 補遺ファイルの説明文は、その後 `ja-natural-humanizer` を踏まえてもう一段自然な日本語に修正した。特に `2年目配当/3年目配当` と `特別配当` は、説明口調の強さを落とし、違いが先に見えるように書き換えた
 
 ## 法令・実務指針の確認メモ
 
@@ -162,9 +168,8 @@
 - `note/` 側に残る太字依存をどうするか整理する
 - `生命保険会社の保険計理人の職務` 側には、配当以外にまだ `H15-2-1` `H17-3-1` などの旧WB論点が残っている
 - GitHub 連携は未完了
-  - `gh` コマンドが入っていない
-  - remote 未設定
-  - リポジトリ作成後に `git remote add origin <URL>` と `git push -u origin main` が必要
+  - `gh` コマンドが入っていないため、GUI や `gh repo create` は使えない
+  - ただし remote 設定と push 自体は完了済み
 - 次の優先対象は `02-04 以降の章` の本格作成
 
 ## 次回まず見るファイル
