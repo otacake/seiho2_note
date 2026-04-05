@@ -16,3 +16,6 @@ study/coverage/problem_inventory.xlsx
 
 # Raw source PDFs are kept locally but not tracked by default
 note/**/*.pdf
+
+# Local shoken prep notes stay out of Git
+note/所見対策/
