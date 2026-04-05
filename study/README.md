@@ -17,5 +17,5 @@
 
 ## 注意
 
-- 現在の `C:\Users\shunsuke\seiho2` は独立した Git リポジトリではなく、親の `C:\Users\shunsuke` が Git 管理下です。
+- 現在のこのワークスペースは独立した Git リポジトリではなく、親ディレクトリ側が Git 管理下です。
 - `seiho2` を GitHub で独立管理したい場合は、このディレクトリで別途 `git init` するのがよいです。

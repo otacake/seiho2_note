@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import csv
+import os
 import re
+import shutil
 import subprocess
 from collections import defaultdict
 from dataclasses import dataclass, asdict
@@ -16,7 +18,7 @@ NOTE_DIR = ROOT / "note"
 STUDY_DIR = ROOT / "study"
 COVERAGE_DIR = STUDY_DIR / "coverage"
 
-PDFTOTEXT = Path(r"C:\Program Files\Git\mingw64\bin\pdftotext.exe")
+PDFTOTEXT = os.environ.get("PDFTOTEXT") or shutil.which("pdftotext")
 
 CHAPTER_MAP = {
     "02-01 生命保険会計.md": "保険2第1章 生命保険会計",
@@ -180,8 +182,12 @@ def any_ref_match(left_refs: list[str], right_refs: list[str]) -> bool:
 
 
 def extract_pdf_text(pdf_path: Path) -> str:
+    if not PDFTOTEXT:
+        raise RuntimeError(
+            "pdftotext not found. Install it and add it to PATH, or set the PDFTOTEXT environment variable."
+        )
     result = subprocess.run(
-        [str(PDFTOTEXT), "-layout", "-enc", "UTF-8", str(pdf_path), "-"],
+        [PDFTOTEXT, "-layout", "-enc", "UTF-8", str(pdf_path), "-"],
         capture_output=True,
         text=True,
         check=False,

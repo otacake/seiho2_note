@@ -86,10 +86,10 @@
   - 同一の `source ref` を複数カードが共有する場合、より具体的な問題文を優先して title match するよう補強した
   - これにより、`H4-2-3` の `特別配当` と `特別配当の意義・考え方` を別カードへ適切にひも付けられるようにした
 - Git 管理
-  - `C:\\Users\\shunsuke\\seiho2` で独立した Git リポジトリを初期化した
+  - このワークスペースで独立した Git リポジトリを初期化した
   - `.gitignore` を追加し、`note/**/*.pdf`、`study/anki/exports/*.tsv`、`study/coverage/problem_inventory.xlsx`、`tmp_*.pdf`、`tmp_*.txt` を既定で除外した
   - raw PDF を除いた study 資産・ノート・スクリプトを初回コミット `68c4627` (`Initialize seiho2 study repo`) として保存した
-  - GitHub の remote は `origin = https://github.com/otacake/seiho2_note.git`
+  - GitHub の remote は `origin` として設定済み
   - `main` を remote に push 済み
   - 現時点の関連コミット
     - `68c4627 Initialize seiho2 study repo`
@@ -170,7 +170,7 @@
 - `note/` 側に残る太字依存をどうするか整理する
 - `生命保険会社の保険計理人の職務` 側には、配当以外にまだ `H15-2-1` `H17-3-1` などの旧WB論点が残っている
 - GitHub 連携
-  - remote `origin`: `https://github.com/otacake/seiho2_note.git`
+  - remote `origin` は設定済み
   - `main` への push は完了済み
   - `gh` コマンドは未導入のため、GUI 連携や `gh repo create` は使えないが、通常の `git push` 運用は可能
 - 次の優先対象は `02-04 以降の章` の本格作成
