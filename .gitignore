@@ -11,6 +11,7 @@ tmp_*.pdf
 tmp_*.txt
 tmp_pdf_pages/
 tmp_pdf_pages2/
+tmp_pdf_pages5/
 
 # Generated exports
 study/anki/exports/*.tsv
