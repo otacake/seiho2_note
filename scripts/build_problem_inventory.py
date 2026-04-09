@@ -5,6 +5,7 @@ import os
 import re
 import shutil
 import subprocess
+from difflib import SequenceMatcher
 from collections import defaultdict
 from dataclasses import dataclass, asdict
 from pathlib import Path
@@ -69,6 +70,7 @@ GENERIC_TITLE_WORDS = [
     "解答アプデ",
     "長いよ",
     "とても長い",
+    "めっちゃ長い",
     "まるあんき",
     "事項",
     "重要と思われる順に",
@@ -81,6 +83,8 @@ EXCLUDED_TITLE_PATTERNS = [
     "現行規制対象外",
     "該当する。",
     "部に計上した金額",
+    "確認事項に追加",
+    "ことを重視している。",
 ]
 
 
@@ -109,7 +113,7 @@ class StudyCard:
     question_norm: str
     body_norm: str
     source_refs: str
-    scope: str
+    scope_key: str
 
 
 def normalize_ref(ref: str) -> str:
@@ -133,6 +137,13 @@ def normalize_title(text: str) -> str:
         text = text.replace(word, "")
     text = re.sub(r"[「」『』【】［］\[\]、。,.・:：;；\s\-－_/\\]", "", text)
     return text
+
+
+def scope_key_from_name(name: str) -> str:
+    match = re.match(r"^(\d{2}(?:-\d{2})?)", name)
+    if match:
+        return match.group(1)
+    return Path(name).stem.replace("_", " ")
 
 
 def extract_full_refs(text: str) -> list[str]:
@@ -297,7 +308,7 @@ def parse_study_cards() -> list[StudyCard]:
     if not study_first.exists():
         return cards
     for path in sorted(study_first.glob("*.md")):
-        scope = path.name.replace("_", " ")
+        scope_key = scope_key_from_name(path.name)
         text = path.read_text(encoding="utf-8")
         matches = list(CARD_HEADER_RE.finditer(text))
         for idx, match in enumerate(matches):
@@ -315,7 +326,7 @@ def parse_study_cards() -> list[StudyCard]:
                     question_norm=normalize_title(question),
                     body_norm=normalize_title(searchable),
                     source_refs="; ".join(split_refs(source_text)),
-                    scope=scope,
+                    scope_key=scope_key,
                 )
             )
     return cards
@@ -343,7 +354,23 @@ def title_matches_card(title: str, card: StudyCard) -> bool:
         return True
     if title_norm in card.question_norm or card.question_norm in title_norm:
         return True
+    if title_norm in card.body_norm:
+        return True
     return False
+
+
+def title_similarity(title: str, card: StudyCard) -> float:
+    title_norm = normalize_title(title)
+    if not title_norm:
+        return 0.0
+    similarities = [
+        SequenceMatcher(None, title_norm, card.question_norm).ratio(),
+        SequenceMatcher(None, title_norm, card.body_norm).ratio(),
+    ]
+    marker_match = re.search(r"[①②③④⑤⑥⑦⑧⑨⑩]", title)
+    if marker_match and marker_match.group(0) in card.body_norm:
+        similarities.append(0.99)
+    return max(similarities)
 
 
 def pick_best_title_match(title: str, candidates: list[StudyCard]) -> StudyCard | None:
@@ -359,18 +386,35 @@ def pick_best_title_match(title: str, candidates: list[StudyCard]) -> StudyCard 
 
     partial = [card for card in candidates if title_matches_card(title, card)]
     if not partial:
+        scored = [
+            (title_similarity(title, card), card)
+            for card in candidates
+        ]
+        scored = [(score, card) for score, card in scored if score >= 0.6]
+        if not scored:
+            return None
+        scored.sort(key=lambda item: item[0], reverse=True)
+        if len(scored) == 1 or scored[0][0] >= scored[1][0] + 0.08:
+            return scored[0][1]
         return None
     if len(partial) == 1:
         return partial[0]
 
-    partial.sort(key=lambda card: len(card.question_norm), reverse=True)
-    if len(partial[0].question_norm) > len(partial[1].question_norm):
-        return partial[0]
+    scored_partial = [
+        (title_similarity(title, card), len(card.question_norm), card)
+        for card in partial
+    ]
+    scored_partial.sort(key=lambda item: (item[0], item[1]), reverse=True)
+    if len(scored_partial) == 1 or scored_partial[0][0] >= scored_partial[1][0] + 0.05:
+        return scored_partial[0][2]
+    if scored_partial[0][1] > scored_partial[1][1]:
+        return scored_partial[0][2]
     return None
 
 
 def find_study_card_match(title: str, refs: list[str], study_cards: list[StudyCard], scope: str = "") -> tuple[str, str]:
-    scoped_cards = [card for card in study_cards if not scope or card.scope == scope]
+    scope_key = scope_key_from_name(scope) if scope else ""
+    scoped_cards = [card for card in study_cards if not scope_key or card.scope_key == scope_key]
     if refs:
         ref_candidates = [
             card
@@ -394,7 +438,7 @@ def build_canonical(wb_rows: list[WbRow], note_rows: list[NoteRow]) -> list[dict
     canonical: list[dict[str, str]] = []
     used_wb_indexes: set[int] = set()
     study_cards = parse_study_cards()
-    chapter_to_scope = {chapter: note_file for note_file, chapter in CHAPTER_MAP.items()}
+    chapter_to_scope = {chapter: scope_key_from_name(note_file) for note_file, chapter in CHAPTER_MAP.items()}
 
     canonical_id = 1
 
