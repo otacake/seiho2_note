@@ -36,3 +36,42 @@
 - `README` / `study/README` / `study/coverage/README` の現況反映
 - 台帳上まだ `missing` のまま残っている chapter 1 / RM の一部論点は、必要ならカード追加かタイトル調整で吸収する
 
+### 2. 未整備章の first_part 追加
+
+- 追加したファイル
+  - `study/first_part/02-06_ソルベンシー.md`
+  - `study/first_part/02-07_内部管理会計・区分経理.md`
+  - `study/first_part/02-08_相互会社と株式会社.md`
+  - `study/first_part/91_生命保険会社の保険計理人の職務.md`
+- 反映した範囲
+  - `保険2第6章 ソルベンシー` の 18 問
+  - `保険2第7章 内部管理会計・区分経理` の 19 問
+  - `保険2第8章 相互会社と株式会社` の 9 問
+  - `生命保険会社の保険計理人の職務` の配当以外 2 問
+- 検証
+  - `python scripts/build_problem_inventory.py`
+  - `python scripts/export_anki_first_part.py`
+- 再生成結果
+  - `drafted=171 / missing=11 / excluded=10`
+  - `保険2第6章 ソルベンシー`: `missing 18 -> 0`
+  - `保険2第7章 内部管理会計・区分経理`: `missing 19 -> 0`
+  - `保険2第8章 相互会社と株式会社`: `missing 9 -> 0`
+  - `生命保険会社の保険計理人の職務`: `missing 2 -> 0`
+
+### 3. README / 運用導線更新
+
+- 更新したファイル
+  - `README.md`
+  - `study/README.md`
+  - `study/coverage/README.md`
+- 反映した内容
+  - repo 全体が `study` と `skill` の両方を持つ構成であること
+  - canonical / Anki の再生成手順
+  - `study_status` に `excluded` が存在すること
+  - 2026-04-10 時点の coverage 集計
+
+## 現在の残タスク
+
+- `missing=11`
+  - `保険2第1章 生命保険会計`: 8 件
+  - `横断 リスク管理・ALM`: 3 件
