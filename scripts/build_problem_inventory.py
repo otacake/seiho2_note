@@ -85,7 +85,20 @@ EXCLUDED_TITLE_PATTERNS = [
     "部に計上した金額",
     "確認事項に追加",
     "ことを重視している。",
+    "運用利回り          5%",
+    "ス、全期チルメル式責任準備金 セ．危険準備金 ソ．貸倒引当金 タ．責任準備金",
+    "5.2 事業費",
+    "・蔵銀枠（第 1 保険年度）：30 万円",
 ]
+
+TITLE_MATCH_OVERRIDES = {
+    "事業年度末責任準備金の積立方とその考え方①": "FP-LA-0021",
+    "事業年度末責任準備金の積立方とその考え方②": "FP-LA-0022",
+    "事業年度末責任準備金の積立方とその考え方③": "FP-LA-0023",
+    "リスクと資本・必要資本要件に対するインプット項目": "FP-RM-0002",
+    "ERM体制の「内部統制体制」について(COSO)": "FP-RM-0005",
+    "各リスクを計測するモデル": "FP-RM-0006",
+}
 
 
 @dataclass
@@ -367,9 +380,6 @@ def title_similarity(title: str, card: StudyCard) -> float:
         SequenceMatcher(None, title_norm, card.question_norm).ratio(),
         SequenceMatcher(None, title_norm, card.body_norm).ratio(),
     ]
-    marker_match = re.search(r"[①②③④⑤⑥⑦⑧⑨⑩]", title)
-    if marker_match and marker_match.group(0) in card.body_norm:
-        similarities.append(0.99)
     return max(similarities)
 
 
@@ -412,9 +422,21 @@ def pick_best_title_match(title: str, candidates: list[StudyCard]) -> StudyCard 
     return None
 
 
+def pick_override_match(title: str, candidates: list[StudyCard]) -> StudyCard | None:
+    for pattern, card_id in TITLE_MATCH_OVERRIDES.items():
+        if pattern in title:
+            for card in candidates:
+                if card.card_id == card_id:
+                    return card
+    return None
+
+
 def find_study_card_match(title: str, refs: list[str], study_cards: list[StudyCard], scope: str = "") -> tuple[str, str]:
     scope_key = scope_key_from_name(scope) if scope else ""
     scoped_cards = [card for card in study_cards if not scope_key or card.scope_key == scope_key]
+    override_match = pick_override_match(title, scoped_cards)
+    if override_match:
+        return "drafted", f"title:{override_match.card_id}"
     if refs:
         ref_candidates = [
             card
